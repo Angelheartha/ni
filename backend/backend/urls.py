@@ -20,7 +20,7 @@ from graphene_django.views import GraphQLView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("graphql", csrf_exempt(GraphQLView.as_view(graphiql=True))),
+    path("graphiql", csrf_exempt(GraphQLView.as_view(graphiql=True))),
 ]
 
-#http://127.0.0.1:8000/graphql
+#http://127.0.0.1:8000/graphiql
