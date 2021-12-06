@@ -1,4 +1,3 @@
-
 <template>
   <div>
     <ol class="post-list">
@@ -23,6 +22,7 @@
 
 <script>
 import AuthorLink from '@/components/AuthorLink'
+
 export default {
   name: 'PostList',
   components: {
@@ -56,17 +56,21 @@ export default {
 .post-list {
   list-style: none;
 }
+
 .post {
   border-bottom: 1px solid #ccc;
   padding-bottom: 1rem;
 }
+
 .post__title {
   font-size: 1.25rem;
 }
+
 .post__description {
   color: #777;
   font-style: italic;
 }
+
 .post__tags {
   list-style: none;
   font-weight: bold;
