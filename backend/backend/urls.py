@@ -9,4 +9,5 @@ urlpatterns = [
     path("graphiql", csrf_exempt(GraphQLView.as_view(graphiql=True))),
 ]
 
-#http://127.0.0.1:8000/graphiql   npm run serve
+#http://127.0.0.1:8000/graphiql
+
